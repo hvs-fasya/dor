@@ -1,0 +1,39 @@
+#hero_frame {
+    width: 100%;
+    height: 970px;
+    overflow: hidden;
+    margin: 0 0 -5px;
+}
+.info {
+    padding-bottom: 50px;
+}
+@media (max-width:1220px) {
+    #hero_frame {
+        height: 900px;
+    }
+}
+@media (max-width:1010px) {
+    #hero_frame {
+        height: 1230px;
+    }
+}
+@media (max-width:785px) {
+    #hero_frame {
+        height: 1550px;
+    }
+}
+@media (max-width:545px) {
+    #hero_frame {
+        height: 1650px;
+    }
+}
+@media (max-width:450px) {
+    #hero_frame {
+        height: 1750px;
+    }
+}
+@media (max-width:350px) {
+    #hero_frame {
+        height: 1850px;
+    }
+}

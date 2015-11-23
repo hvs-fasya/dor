@@ -1,0 +1,19 @@
+{
+    "name": "bundleProject",
+    "version": "0.0.1",
+    "authors": [
+        "velomenon@gmail.com"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "rupture-by-jenius": "latest",
+        "normalize.styl": "latest",
+        "jeet": "latest",
+        "bootstrap": "latest",
+        "fontawesome": "latest",
+        "jquery": "latest",
+        "jquery-knob": "latest",
+        "jqueryui-touch-punch": "latest",
+        "jquery-ui": "latest"
+    }
+}

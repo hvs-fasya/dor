@@ -1,0 +1,11 @@
+.element_category_block {
+    margin: 0 0 20px;
+}
+.element_category_block .href {
+    color: #555;
+    font-weight: 500;
+    font-size: 20px;
+}
+.questions_wrap {
+    margin-bottom: 50px;
+}

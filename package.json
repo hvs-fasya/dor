@@ -1,0 +1,23 @@
+{
+  "name": "bundleProject",
+  "version": "0.0.1",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-stylus": "*",
+    "gulp-uglify": "*",
+    "nib": "*"
+  },
+  "dependencies": {
+    "gulp": "*",
+    "gulp-stylus": "*",
+    "nib": "*",
+    "gulp-concat": "*",
+    "gulp-uglify": "*",
+    "browser-sync": "*",
+    "gulp-clean": "*"
+  }
+}
