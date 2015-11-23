@@ -2,11 +2,13 @@
 
 <?php
 $branch = 'master';
-$repo = 'git@bitbucket.org:leadia/simple-content-engine.git';
+//$repo = 'git@bitbucket.org:leadia/simple-content-engine.git';
+$repo = 'https://github.com/hvs-fasya/dor.git';
 
 $db = [
     'user' => 'root',
-    'password' => 'HvhOFbn35',
+//    'password' => 'HvhOFbn35',
+	'password' => 'rushrush15',
 ];
 
 $landings_dir = '/var/www/landings';
