@@ -1,1 +1,1 @@
-host:sro-newcons.ru/sitemap.xml
+host:hvs1.ru/sitemap.xml

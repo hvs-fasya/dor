@@ -15,7 +15,7 @@ $landings_dir = '/var/www/landings';
 $prev_project = 'greentd.ru';
 
 // Динамический параметр, мб передавать из консоли...
-$project_name = 'hvs1.ru';
+$project_name = 'yurist123.ru';
 
 $newProjects = [
     '116jurist.ru',

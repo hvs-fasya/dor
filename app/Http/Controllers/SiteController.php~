@@ -30,7 +30,7 @@ class SiteController extends Controller
      */
     public function index()
     {
-        $links = Content::random(20);
+        $links = Content::random(30);
         return view('index', ['links'=>$links]);
     }
 
