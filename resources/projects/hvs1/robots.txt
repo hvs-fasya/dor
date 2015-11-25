@@ -1,1 +1,0 @@
-host:hvs1.ru/sitemap.xml
