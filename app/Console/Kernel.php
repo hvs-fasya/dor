@@ -29,10 +29,12 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // Каждые сутки открываем 40 ключей
-        $schedule->command('keyword:publish')->daily();
+        //$schedule->command('keyword:publish')->daily();
+        $schedule->command('keyword:publish')->cron('* * * * *')->withoutOverlapping();
         // Каждую минуту собираем контент для опубликованного ключа
         $schedule->command('content:parse')->cron('* * * * *')->withoutOverlapping();
         // Каждые сутки генерируем sitemap
-        $schedule->command('sitemap:generate')->daily();
+        //$schedule->command('sitemap:generate')->daily();
+        $schedule->command('sitemap:generate')->cron('* * * * *')->withoutOverlapping();
     }
 }

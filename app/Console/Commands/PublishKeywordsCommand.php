@@ -33,7 +33,7 @@ class PublishKeywordsCommand extends Command
     protected function getOptions()
     {
         return [
-            ['keys', null, InputOption::VALUE_OPTIONAL, 'How many keys need to publish', 80],
+            ['keys', null, InputOption::VALUE_OPTIONAL, 'How many keys need to publish', 2],
         ];
     }
 

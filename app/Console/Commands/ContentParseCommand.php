@@ -74,7 +74,7 @@ class ContentParseCommand extends Command
      * @param int $limit
      * @param int $delay
      */
-    public function parseDataForMultiKeys($limit = 5, $delay = 8)
+    public function parseDataForMultiKeys($limit = 2, $delay = 8)
     {
         $keywords = Content::whereStatus('published')
             ->where('has_content', '=', false)
