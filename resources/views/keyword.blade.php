@@ -1,7 +1,8 @@
 @extends('layouts.main')
 
 {{--<ключ> - <присадка>--}}
-@section('title'){{ capitalize_first($data->keyword) }} - {{ config('custom_app.title_additive') }}@endsection
+@section('title'){{ capitalize_first($data->keyword) }} - {{ config('custom_app.title_additive') }} (Москва)@endsection
+@section('description')"➤ {{ capitalize_first($data->keyword) }} ✔ Лучшие юристы Москвы и России на одном сайте! ➔ Заходите на наш сайт"@endsection
 
 @section('content')
 

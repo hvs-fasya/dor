@@ -914,7 +914,7 @@ class FakeUserService {
 
     protected static $regions = [
         'Москва',
-        'Мск',
+        'Мск'/*,
         'Балашиха',
         'Бронницы',
         'Видное',
@@ -970,7 +970,7 @@ class FakeUserService {
         'Шатура',
         'Щелково',
         'Электросталь',
-        'Юбилейный',
+        'Юбилейный',*/
     ];
 
     /**
@@ -988,13 +988,17 @@ class FakeUserService {
     /**
      * Выбирает случайный регион с 40% для Москвы и Мск
      */
-    public static function getRandomRegion()
+    /*public static function getRandomRegion()
     {
         if (rand(1, 10) <= 4) {
             return self::$regions[rand(0, 1)];
         } else {
             return self::$regions[array_rand(self::$regions)];
         }
+    }*/
+    public static function getRandomRegion()
+    {
+        return self::$regions[rand(0, 1)];
     }
 
     public static  function exportToJS(){
