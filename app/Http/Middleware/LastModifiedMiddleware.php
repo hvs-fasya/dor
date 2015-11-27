@@ -15,8 +15,9 @@ class LastModifiedMiddleware
     public function handle($request, Closure $next)
     {
 
-        $LastModified_unix = '1441277995'; // время последнего изменения страницы
+        //$LastModified_unix = '1441277995'; // время последнего изменения страницы
         //$LastModified = gmdate("D, d M Y H:i:s \G\M\T", $LastModified_unix);
+        $LastModified_unix = strtotime( Content::max('updated_at') );
 
         /**
          * @var \Illuminate\Http\Response $response
