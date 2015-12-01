@@ -5,17 +5,17 @@
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 site-description">
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="tab1">
-                        <h1 class="tab_pane_title">
+                        <h2 class="tab_pane_title">
 								<span>
 									Нужна помощь юриста?
 								</span>
-                        </h1>
+                        </h2>
                         <p class="tab_pane_subtitle">
                             Воспользуйтесь бесплатной консультацией без предоплаты и очередей.
                         </p>
-                        <h2 class="tab_pane_call">
+                        <h4 class="tab_pane_call">
                             Введите вопрос в форме и получите <b>незамедлительную помощь!</b>
-                        </h2>
+                        </h4>
                         <ul class="tab_advantages">
                             <li>Работаем без выходных <b>24/7</b></li>
                             <li>Наши филиалы расположены во <b>всех регионах России</b></li>
@@ -26,17 +26,17 @@
 
 
                     <div role="tabpanel" class="tab-pane" id="tab2">
-                        <h1 class="tab_pane_title">
+                        <h2 class="tab_pane_title">
 								<span>
 									Горячая линия юридической помощи!
 								</span>
-                        </h1>
+                        </h2>
                         <p class="tab_pane_subtitle">
                             Позвоните по одному из номеров, и вас бесплатно проконсультирует юрист
                         </p>
-                        <h2 class="tab_pane_call">
+                        <h4 class="tab_pane_call">
                             Или введите вопрос в форме и юрист сам <b>перезвонит Вам!</b>
-                        </h2>
+                        </h4>
                         <ul class="tab_advantages">
                             <?php foreach($config['phones'] as $phone): ?>
                             <li><?php echo $phone['region']?>: <b><?php echo $phone['phone']?></b> </li>
@@ -49,17 +49,17 @@
 
 
                     <div role="tabpanel" class="tab-pane" id="tab3">
-                        <h1 class="tab_pane_title">
+                        <h2 class="tab_pane_title">
 								<span>
 									Юридические и бухгалтерские услуги
 								</span>
-                        </h1>
+                        </h2>
                         <p class="tab_pane_subtitle">
                             Самые невероятные вершины бизнеса достижимы при выборе правильного пути!
                         </p>
-                        <h2 class="tab_pane_call">
+                        <h4 class="tab_pane_call">
                             Отправьте заявку с описанием вашей задачи, чтобы мы могли связаться с Вами и приступить к работе.
-                        </h2>
+                        </h4>
                         <ul class="tab_advantages">
                             <li>Открытие фирмы, регистрирация ООО, ИП, внесение изменений.</li>
                             <li>Подбираем юридические адреса для регистрации фирм в Москве и Санкт-Петербурге.</li>
@@ -69,17 +69,17 @@
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="tab4">
-                        <h1 class="tab_pane_title">
+                        <h2 class="tab_pane_title">
 								<span>
 									Лучшие юристы в вашем городе.
 								</span>
-                        </h1>
+                        </h2>
                         <p class="tab_pane_subtitle">
                             Мы работаем в 84 регионах и 116 городах РФ.
                         </p>
-                        <h2 class="tab_pane_call">
+                        <h4 class="tab_pane_call">
                             Заполните заявку с вопросом, чтобы наш юрист из вашего города проконсультировал вас.
-                        </h2>
+                        </h4>
                         <ul class="tab_advantages">
 
                             <li>Наши сотрудники профессионалы в области семейного, трудового, жилищного, гражданского, уголовного, административного права.</li>
@@ -91,17 +91,17 @@
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="tab5">
-                        <h1 class="tab_pane_title">
+                        <h2 class="tab_pane_title">
 								<span>
 									Нарушили закон? Мы защитим ваши интересы.
 								</span>
-                        </h1>
+                        </h2>
                         <p class="tab_pane_subtitle">
                             Обеспечим вашу защиту и добъемся Вашего оправдания!
                         </p>
-                        <h2 class="tab_pane_call">
+                        <h4 class="tab_pane_call">
                             Опишите кратко факт предъявленного вам обвинения и юрист примет первые действия по защите вас уже сегодня!
-                        </h2>
+                        </h4>
                         <ul class="tab_advantages">
 
 
@@ -113,17 +113,17 @@
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="tab6">
-                        <h1 class="tab_pane_title">
+                        <h2 class="tab_pane_title">
 								<span>
 									Ваши права были нарушены?
 								</span>
-                        </h1>
+                        </h2>
                         <p class="tab_pane_subtitle">
                             Поможем вам восстановить справедливость и наказать виновных.
                         </p>
-                        <h2 class="tab_pane_call">
+                        <h4 class="tab_pane_call">
                             Опишите ситуацию нарушения ваших прав и наш юрист свяжется с вами в кратчайшие сроки!
-                        </h2>
+                        </h4>
                         <ul class="tab_advantages">
 
                             <li>Мы работаем без праздников, выходных, круглосуточно на страже ваших интересов.</li>
@@ -134,17 +134,17 @@
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="tab7">
-                        <h1 class="tab_pane_title">
+                        <h2 class="tab_pane_title">
 								<span>
 									Хотите подать иск, заявление, жалобу?
 								</span>
-                        </h1>
+                        </h2>
                         <p class="tab_pane_subtitle">
                             Подготовоим иск, заявление, жалобу, и подадим их в суд, прокуратуру и другие инстанции в течении 24 часов!
                         </p>
-                        <h2 class="tab_pane_call">
+                        <h4 class="tab_pane_call">
                             Опишите вашу ситуацию и юрист возьмётся за ваше дело уже сегодня!
-                        </h2>
+                        </h4>
                         <ul class="tab_advantages">
                             <li>Подготавливаем жалобы, заявления по защите ваших интересов в прокуратуру, суд.</li>
                             <li>Осуществляем сбор доказательств по самым различным вопросам: развод и алименты, уголовные, административные, жилищные, гражданские дела, автоправо.</li>
@@ -155,17 +155,17 @@
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="tab8">
-                        <h1 class="tab_pane_title">
+                        <h2 class="tab_pane_title">
 								<span>
 									Сомневаетесь в законности ваших действий?
 								</span>
-                        </h1>
+                        </h2>
                         <p class="tab_pane_subtitle">
                             Вы хотите что-то построить, произвести, открыть, совершить, но сомневаетесь законно ли это?
                         </p>
-                        <h2 class="tab_pane_call">
+                        <h4 class="tab_pane_call">
                             Мы осуществим правовой анализ ситуации и поможем узаконить ваши действия.
-                        </h2>
+                        </h4>
                         <ul class="tab_advantages">
                             <li>Добьёмся выдачи разрешений, лицензий, сертификатов и иных документов для осуществления ваших действий.</li>
                             <li>Обезопасим юридически ваши постройки, бизнес, деятельность.</li>
@@ -175,17 +175,17 @@
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="tab9">
-                        <h1 class="tab_pane_title">
+                        <h2 class="tab_pane_title">
 								<span>
 							Как оспорить сделку, договор, решение суда?
 								</span>
-                        </h1>
+                        </h2>
                         <p class="tab_pane_subtitle">
                             В 87% случаях оспариваем сделки, договора, решения судов в пользу наших клиентов.
                         </p>
-                        <h2 class="tab_pane_call">
+                        <h4 class="tab_pane_call">
                             Опишите, что вы хотите оспорить и мы предложим вам успешное решение вашего вопроса.
-                        </h2>
+                        </h4>
                         <ul class="tab_advantages">
                             <li>Добьёмся изменения либо расторжения договора дарения, купли-продажи квартиры, земли, машины, завещания, либо иной сделки. Отменим решение суда.</li>
                             <li>Подготовим необходимые доказательства, документы, подадим их в нужные инстанции.</li>
