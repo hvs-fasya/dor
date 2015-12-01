@@ -1,9 +1,10 @@
-@servers(['new_server'=>'127.0.0.1'])
+@servers(['new_server'=>'192.81.223.20'])
 
 <?php
 $branch = 'master';
 //$repo = 'git@bitbucket.org:leadia/simple-content-engine.git';
-$repo = 'https://github.com/hvs-fasya/dor.git';
+//$repo = 'https://github.com/hvs-fasya/dor.git';
+$repo = 'git@github.com:hvs-fasya/dor.git';
 
 $db = [
     'user' => 'root',

@@ -2,6 +2,7 @@
 
 use Carbon\Carbon;
 use Closure;
+use App\Content;
 
 class LastModifiedMiddleware
 {
