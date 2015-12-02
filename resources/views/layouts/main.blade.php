@@ -104,8 +104,8 @@
     var thank_you_url = '/thank';
 </script>
 
-<script type="text/javascript" src="http://api.leadiacloud.com/wnew.js?p=lawyer&amp;pos=right&amp;margin=&amp;color=blue&amp;w=6753&amp;ft=fabricform&amp;wc=leadia/default/science"></script>
-
+<!--<script type="text/javascript" src="http://api.leadiacloud.com/wnew.js?p=lawyer&amp;pos=right&amp;margin=&amp;color=blue&amp;w=6753&amp;ft=fabricform&amp;wc=leadia/default/science"></script>-->
+<script type="text/javascript" src="http://api.leadiacloud.com/wnew.js?p=lawyer&pos=right&margin=0&color=blue&w=7590&ft=fabricform&wc=leadia/default/science"></script> 
 @yield('javascript')
 
 </body>
